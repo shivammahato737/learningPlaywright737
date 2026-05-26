@@ -1,0 +1,18 @@
+//function - it is a reusable block of code that perform a specific task
+//Instead of repeating logic, you define once and call it whenever needed
+
+//without function repeated logic
+let score = 75
+let result = score >=85 ? "pass" : "fail"
+console.log(result)
+
+let score = 90
+let result = score >=85 ? "pass" : "fail"
+console.log(result)
+
+function getResult(score){
+    return score2 >=70 ?"pass" : "fail"
+
+}
+getResult(85)
+getResult(45)
