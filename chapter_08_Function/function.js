@@ -10,9 +10,18 @@ let score = 90
 let result = score >=85 ? "pass" : "fail"
 console.log(result)
 
+//with function 
 function getResult(score){
     return score2 >=70 ?"pass" : "fail"
 
 }
-getResult(85)
-getResult(45)
+getResult(74)
+getResult(90)
+
+function show(){  
+       
+    console.log("Inside the function x = " , x);   
+}   
+let x =20; 
+console.log("Outside the function x = " , x);   
+show();  

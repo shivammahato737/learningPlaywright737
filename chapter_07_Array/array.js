@@ -52,3 +52,46 @@ console.log(chars)
 
 let str = Array.from("shivam")
 console.log(str)
+
+const age = [10,20, 30, 40]
+console.log(age);
+
+/* 
+how to create array in javaScript
+3 ways: - Array literals-[], using new keyword, array constructor 
+*/
+//Array literals
+let country = ["india", "pakistan", "Nepal"]
+for (let i =0; i<country.length; i++){
+    console.log(country[i]);
+    
+}
+
+//using a new keyword
+let num 
+let country = new Array()
+country[0] = "USA"
+country[1] = "India"
+country[2] = "nepal"
+for (num=0;num<country.length;num++){
+    console.log((country[num]));
+    
+}
+
+//Array constructor
+let employee = new Array("shivam", "satyam", "Amit")
+for (let i=0;i<employee.length; i++){
+    console.log(employee[i]);
+}
+
+let car =["BMW", "maruti", "lamborgini"]
+console.log(car[2]);
+
+let car =["BMW", "maruti", "lamborgini"]
+let last = car[car.length-1]
+console.log(last);
+
+//modify
+let car =["BMW", "maruti", "lamborgini"]
+car[0] = "Ferrari"
+console.log(car);
